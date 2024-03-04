@@ -1,8 +1,9 @@
 //-------------------------------- Prevenir de ser alteradas é constantes que se usa //
-//-------------------------------- Sensor que vai medir bastantas coisas - LONG  0 a 1024 // 
+//-------------------------------- Sensor que vai medir numeros maiores - LONG  0 a 1024 // 
 //-------------------------------- Utilizamos A1 como inteiro pois quando compilamos transforma em inteiro, A1 = É só para ser mais facil / ATO DA COMPILAÇÃO //
 //-------------------------------- Inicialização da porta série - serial.begin(*) * = de acordo com a variável declarada do valor 9600 (setup) //
 //-------------------------------- Tem de dizer que os pins são output ou input = pinMode(NOME DO PIN, OUTPUT ou INPUT); (setup) //
 //-------------------------------- Para ler as portas analogicas junto para imprimir no serial para ler = analogREAD( A variável do sensor );  tudo = Serial.println(analogRead(variavel)); //
 //-------------------------------- Duas coisas importantes o tempo de penetração da água no solo , e o tempo que a bomba de água trabalha //
-//-------------------------------- 
+//-------------------------------- temos de criar a função para ativar a bomba ou seja criar um função com um parametro int e o nome e dps np loop metemos a variavel dos leds/bomba que queremos ligar//
+//-------------------------------- If simplificado (oque vai acontecer se for falso e oq vai acontecer se for verdadeiro divide se por um ponto de - ? -  E : É CASO CONTRARIO FAZ ISSO  //
