@@ -1,0 +1,8 @@
+//-------------------------------- Prevenir de ser alteradas é constantes que se usa //
+//-------------------------------- Sensor que vai medir bastantas coisas - LONG  0 a 1024 // 
+//-------------------------------- Utilizamos A1 como inteiro pois quando compilamos transforma em inteiro, A1 = É só para ser mais facil / ATO DA COMPILAÇÃO //
+//-------------------------------- Inicialização da porta série - serial.begin(*) * = de acordo com a variável declarada do valor 9600 (setup) //
+//-------------------------------- Tem de dizer que os pins são output ou input = pinMode(NOME DO PIN, OUTPUT ou INPUT); (setup) //
+//-------------------------------- Para ler as portas analogicas junto para imprimir no serial para ler = analogREAD( A variável do sensor );  tudo = Serial.println(analogRead(variavel)); //
+//-------------------------------- Duas coisas importantes o tempo de penetração da água no solo , e o tempo que a bomba de água trabalha //
+//-------------------------------- 
