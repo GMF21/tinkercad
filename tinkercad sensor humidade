@@ -8,7 +8,7 @@
 //-------------------------------- temos de criar a função para ativar a bomba ou seja criar um função com um parametro int e o nome e dps np loop metemos a variavel dos leds/bomba que queremos ligar//
 //-------------------------------- If simplificado (oque vai acontecer se for falso e oq vai acontecer se for verdadeiro divide se por um ponto de - ? -  E : É CASO CONTRARIO FAZ ISSO  //
 //-------------------------------- Ler as bibliotecas do neopixel - strip.show para mostrar as cores//
-
+//----------- lcd.print("oque agnt quiser")-----------------//
 
 
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
